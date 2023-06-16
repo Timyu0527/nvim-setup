@@ -1,0 +1,20 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        }
+    },
+    "pylsp.plugins.pycodestyle.ignore": [
+        "E501",
+        "E231",
+        "E226",
+        "E126",
+        "E225",
+        "E221",
+        "E265",
+        "W291",
+        "W293",
+    ]
+}

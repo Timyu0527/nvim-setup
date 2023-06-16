@@ -1,0 +1,56 @@
+call plug#begin()
+    Plug 'morhetz/gruvbox'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'kana/vim-textobj-user'
+    Plug 'kana/vim-textobj-entire'
+    Plug 'preservim/nerdtree'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    " Plug 'neoclide/coc.nvim', {'branch': 'release' }
+call plug#end()
+filetype plugin indent on
+
+
+"basic setting
+set t_Co=256
+colorscheme gruvbox
+set background=dark
+set hlsearch "enaable high light search
+set rnu
+set cindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set showcmd
+set nowrap
+set encoding=utf-8
+set autowrite
+set mouse=n
+set cursorline
+
+"key mapping
+let mapleader="\<space>"
+map <F4> :NERDTreeToggle<CR>
+nmap <tab> >>
+vmap <tab> >
+nmap <e> >%<CR>
+nmap <leader>w :w<CR>
+nmap <leader>q :q<CR>
+nmap <leader>wq :wq<CR>
+nmap <leader>wa :wa<CR>
+nmap <leader>qa :qa<CR>
+map <leader>y* :%y+<CR>
+map <leader>d* :%d+<CR>
+map <leader>vr :w<CR> :source %<CR>
+map <leader>tn :tabnew<cr>
+map <leader>te :tabe
+map <leader>tm :tabmove
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
+
+" vim-airline setting
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
+
