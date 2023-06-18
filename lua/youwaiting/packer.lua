@@ -29,4 +29,8 @@ return require('packer').startup(function(use)
     use('vim-airline/vim-airline-themes')
     use('preservim/nerdtree')
     use('terrortylor/nvim-comment')
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
 end)

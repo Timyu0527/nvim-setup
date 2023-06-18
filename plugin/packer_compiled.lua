@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   nerdtree = {
     loaded = true,
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/nerdtree",
