@@ -8,7 +8,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.showcmd = true
-vim.opt.wrap = false 
+vim.opt.wrap = false
 vim.opt.autowrite = true
 vim.opt.mouse:append('n')
 vim.opt.cursorline = true
