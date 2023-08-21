@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
     use('vim-airline/vim-airline')
     use('vim-airline/vim-airline-themes')
     use('preservim/nerdtree')
+    use('ryanoasis/vim-devicons')
     use('terrortylor/nvim-comment')
     use({
         "iamcco/markdown-preview.nvim",

@@ -130,6 +130,11 @@ _G.packer_plugins = {
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
   ["vim-textobj-entire"] = {
     loaded = true,
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/vim-textobj-entire",
