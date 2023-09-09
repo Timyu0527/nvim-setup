@@ -120,6 +120,12 @@ _G.packer_plugins = {
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    config = { "\27LJ\2\2Ç\1\0\0\3\0\5\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0004\2\0\0=\2\4\1B\0\2\1K\0\1\0\20shade_filetypes\1\0\a\20shade_terminals\2\17open_mapping\n<c-\\>\19shading_factor\0061\17persist_size\2\tsize\3\r\14direction\15horizontal\20start_in_insert\2\nsetup\15toggleterm\frequire\0" },
+    loaded = true,
+    path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["vim-airline"] = {
     loaded = true,
     path = "/home/youwaiting/.local/share/nvim/site/pack/packer/start/vim-airline",
@@ -148,6 +154,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\2Ç\1\0\0\3\0\5\0\t6\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\3\0004\2\0\0=\2\4\1B\0\2\1K\0\1\0\20shade_filetypes\1\0\a\20shade_terminals\2\17open_mapping\n<c-\\>\19shading_factor\0061\17persist_size\2\tsize\3\r\14direction\15horizontal\20start_in_insert\2\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
 -- Config for: gruvbox
 time([[Config for gruvbox]], true)
 try_loadstring("\27LJ\2\0027\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0\24colorscheme gruvbox\bcmd\bvim\0", "config", "gruvbox")
